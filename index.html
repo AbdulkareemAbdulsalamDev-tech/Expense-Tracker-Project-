@@ -5,18 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Expense Tracker</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    #water {
-      background-image: url('images/bckge.png');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  </style>
+
 </head>
 <body class="bg-grey-600 min-h-screen p-4 flex flex-col items-center">
-  <div id="water" class="w-full max-w-xl shadow-md rounded-xl p-6">
-    <h1 class="text-3xl font-bold mb-4 text-green-600 text-center">DEBIT DIARY</h1>
+  <div id="water" class="bg-[url('images/bckge.png')] bg-cover bg-center animate-[pulse_7s_ease-in-out_infinite] w-full max-w-xl shadow-md rounded-xl p-6">
+    <h1 class="text-3xl font-bold mb-4 text-green-700 text-center">DEBIT DIARY</h1>
     
     <p class="text-green-600 mb-6 text-center">Track your expenses easily and efficiently.</p>
     <form id="expense-form" class="space-y-4">
@@ -45,7 +38,7 @@
     </form>
 
     
-    <div class="mb-4 text-lg font-semibold text-gray-700">
+    <div class="mb-4 text-lg font-semibold text-gray-900">
       Total: &#8358<span id="total">0.00</span>
     </div>
 
